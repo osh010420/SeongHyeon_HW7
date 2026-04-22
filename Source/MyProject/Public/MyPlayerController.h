@@ -26,4 +26,13 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Input");
 	UInputAction* LookAction;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Input");
+	UInputAction* UpDownAction;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Input");
+	UInputAction* RollAction;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Input");
+	UInputAction* SwitchAction;
 };
